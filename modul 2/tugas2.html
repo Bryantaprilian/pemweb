@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>118100</title>
+</head>
+<body>
+        <div><h1>Silahkan Daftar</h1></div>
+        <form action="" method="post">
+        <div>
+            <label for="username">Username :</label>
+            <input type="text" name="username" id="username" class="form-control">
+            <small><?= $nameErr;?></small> 
+        </div>
+        <div>
+            <label for="password">Password :</label>
+            <input type="password" name="password" id="password" class="form-control"> 
+            <small><?= $passErr;?></small> 
+        </div>
+        <div>
+            <label for="password_confirmation">Konfirmasi Password :</label>
+            <input type="password" name="password_confirmation" id="password_confirmation"> 
+            <small><?= $passConfErr;?></small> 
+        </div>
+        <button type="submit">Okay</button>
+    </form>
+</body>
+</html>
